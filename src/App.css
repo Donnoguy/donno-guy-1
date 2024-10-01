@@ -1,4 +1,5 @@
 :root {
+    --background-image:url(../src/assets/white.jpg);
     --background-color: #adb3b4;
     --btn-color:#0987f2;
     --btn-text-color: #fff;
@@ -9,6 +10,7 @@
 }
 
 [data-theme='dark'] {
+    --background-image: #222;
     --background-color: #222;
     --btn-color:#fff;
     --btn-text-color: #222;
@@ -19,6 +21,7 @@
 }
 
 body {
+    background-image: var(--background-image);
     background-color: var(--background-color);
     display: flex;
     justify-content: center;
